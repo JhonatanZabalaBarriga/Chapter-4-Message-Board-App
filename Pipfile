@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+
+[packages]
+djangorestframework = "==3.12.0"
+pygments = "==2.5.2"
+gunicorn = "*"
+
+[packages.4cec9a8]
+path = "./django"
+
+[packages.a590075]
+path = "/home/jhonatanzabalabarriga/django"
